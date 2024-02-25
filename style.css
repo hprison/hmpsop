@@ -1,0 +1,167 @@
+@font-face {
+    font-family: "dhivehi";
+    src: url("fonts/MVWaheed.otf");
+    font-weight: 800;
+  }
+
+@font-face {
+    font-family: "dhivehi";
+    src: url("fonts/MV_Faseyha.otf");
+    font-weight: 400;
+  }
+
+.dhivehi-text {
+    font-family: dhivehi;
+    direction: rtl;
+  }
+
+title {
+    font-family: dhivehi;
+}
+
+.border {
+    width: 80%;
+    margin: auto;
+}
+
+.fa-solid {
+    font-size: 25px;
+    color: rgb(126, 124, 124)   ;
+    border: 1px solid rgb(182, 180, 180);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fa-solid:hover {
+    color: #000;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.fa-house {
+    position: absolute;
+    top: 50px;
+    left: 300px;
+}
+
+.fa-arrow-left {
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    padding: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    padding: 20px;
+    vertical-align: top;
+    text-align: justify;
+    line-height: 30px;
+}
+
+th {
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.sop-number {
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    font-family: san siraf;
+}
+
+.inactive {
+    color: #ebebe0;
+}
+
+.order {
+    width: 50%;
+    margin: 30px auto;
+    font-size: 18px;
+}
+
+/* MOBILE SETTING */
+
+@media screen and (max-width:700px) {
+    .border {
+        width: 99%;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    .order {
+        width: 90%;
+    }
+
+    .fa-solid {
+        font-size: 20px;
+        color: rgb(126, 124, 124)   ;
+        border: 1px solid rgb(182, 180, 180);
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .fa-house {
+        position: absolute;
+        top: 20px;
+        left: 15px;
+    }
+    
+    .fa-arrow-left {
+        position: absolute;
+        top: 20px;
+        left: 55px;
+    }
+
+    td {
+        padding: 10px;
+        text-align: justify;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    
+    th {
+        font-size: 17px;
+        border-bottom: 1px solid #000;
+
+    }
+
+    .order li a {
+        font-size: 17px;
+    }
+
+}
+
