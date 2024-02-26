@@ -156,6 +156,10 @@ th {
         line-height: 30px;
         font-size: 15px;
     }
+
+    td a {
+        font-size: 15px;
+    }
     
     th {
         font-size: 17px;
