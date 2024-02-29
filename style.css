@@ -78,11 +78,11 @@ table {
 }
 
 td {
-    padding: 20px;
+    padding: 30px;
     vertical-align: top;
     text-align: justify;
     line-height: 30px;
-    border-bottom: 1px solid #c0c0c0;
+    /* border-bottom: 1px solid #c0c0c0; */
 }
 
 th {
@@ -155,11 +155,7 @@ th {
         padding: 10px;
         text-align: justify;
         line-height: 30px;
-        font-size: 15px;
-    }
-
-    td a {
-        font-size: 15px;
+        font-size: 17px;
     }
     
     th {
